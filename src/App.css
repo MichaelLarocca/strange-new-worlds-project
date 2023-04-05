@@ -9,6 +9,29 @@ main {
   justify-content: center;
 }
 
+.navbar {
+    /* border: 1px solid red; */
+    background-color: #2E2E33;
+    height: 35px;
+}
+
+.navbar img {
+  /* border: 1px solid red; */
+  height: 35px;
+}
+
+.hero {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.7);
+}
+
+.hero img {
+  /* border: 1px solid red; */
+  width: 500px;
+}
+
 .card {
   border: 10px solid #707070;
   width: 225px;

@@ -2,6 +2,8 @@ import './App.css'
 import characters from './data.jsx'
 import Card from '../src/components/Card'
 import CardHardCoded from '../src/components/CardHardCoded'
+import Navbar from '../src/components/Nav'
+import Hero from '../src/components/Hero'
 
 function App() {
 
@@ -17,6 +19,9 @@ function App() {
   })
 
   return (
+    <>
+    <Navbar />
+    <Hero />
     <main className="ctn-main">
       {/* <p>Hello Strange New World</p> */}
       {/* <CardHardCoded /> */}
@@ -25,6 +30,7 @@ function App() {
       {/* <Card src="../src/img/ChristineChapel.png" name="Christine Chapel" rank="Fleet Captain" position="Head Nurse" about="Christine Chapel is a nurse serving aboard the USS Enterprise. She is known for her dedication to her patients and her unrequited love for Mr. Spock." /> */}
       {cards}
     </main>
+    </>
   )
 }
 
