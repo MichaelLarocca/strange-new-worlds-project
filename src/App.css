@@ -2,6 +2,13 @@ body {
   font-family: 'Orbitron', sans-serif;
 }
 
+main {
+  /* border: 3px solid greenyellow; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .card {
   border: 10px solid #707070;
   width: 225px;
@@ -43,7 +50,8 @@ body {
 }
 
 .img-character {
-  /* border: 5px solid blue; */
+  border: 2px solid #707070;
+  border-radius: 25px;
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -53,8 +61,13 @@ body {
   
 .position {
   /* border: 1px solid red; */
+  border-radius: 25px;
+  width: 200px;
   text-align: center;
   color: white;
+  margin: 5px auto;
+  background-color: #707070;
+  text-shadow: 1px 1px 1px beige;
 }
 
 .about {
@@ -62,6 +75,8 @@ body {
   color: black;
   background-color: beige;
   padding: 10px;
-  font-size: 9px;
+  font-size: 10px;
+  font-weight: bold;
   margin: 0;
+  height: 85px;
 }
