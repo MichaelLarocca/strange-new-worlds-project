@@ -3,14 +3,15 @@ import imgSpock from "../src/img/Spock.png"
 import imgChristineChapel from "../src/img/ChristineChapel.png"
 import imgSingh from "../src/img/La-anNoonien-Singh.png"
 import imgEricaOrtegas from "../src/img/EricaOrtegas.png"
-import JosephM_Benga from "../src/img/JosephM_Benga.png"
-import Hemmer from "../src/img/Hemmer.png"
-import UnaChinRiley from "../src/img/UnaChinRiley.png"
+import imgJosephM_Benga from "../src/img/JosephM_Benga.png"
+import imgHemmer from "../src/img/Hemmer.png"
+import imgUnaChinRiley from "../src/img/UnaChinRiley.png"
+import imgKirk from "../src/img/Kirk.png"
 
 export default [
     {
       key: 0,
-      img: imgPike,  
+      src: imgPike,  
       name: "Christopher Pike",
       position: "Captain",
       rank: "Fleet Captain",
@@ -18,7 +19,7 @@ export default [
     },
     {
       key: 1,
-      img: imgSpock,  
+      src: imgSpock,  
       name: "Spock",
       position: "Science Officer",
       rank: "Commander",
@@ -26,7 +27,7 @@ export default [
     },
     {
       key: 2,
-      img: imgChristineChapel, 
+      src: imgChristineChapel, 
       name: "Christine Chapel",
       position: "Head Nurse",
       rank: "Lieutenant",
@@ -34,7 +35,7 @@ export default [
     },
     {
       key: 3,
-      img: imgSingh,       
+      src: imgSingh,       
       name: "La'an Noonien-Singh",
       position: "Security Officer",
       rank: "Lieutenant",
@@ -42,7 +43,7 @@ export default [
     },
     {
       key: 4,
-      img: imgEricaOrtegas, 
+      src: imgEricaOrtegas, 
       name: "Erica Ortegas",
       position: "Navigator",
       rank: "Lieutenant",
@@ -50,7 +51,7 @@ export default [
     },
     {
       key: 5,
-      img: JosephM_Benga,   
+      src: imgJosephM_Benga,   
       name: "Dr. Joseph M'Benga",
       position: "Chief Medical Officer",
       rank: "Lieutenant Commander",
@@ -58,7 +59,7 @@ export default [
     },
     {
       key: 6,
-      img: Hemmer,   
+      src: imgHemmer,   
       name: "Hemmer",
       position: "Security Officer",
       rank: "Lieutenant",
@@ -66,10 +67,18 @@ export default [
     },
     {
       key: 7,
-      img: UnaChinRiley,   
+      src: imgUnaChinRiley,   
       name: "Una Chin-Riley",
       position: "Executive Officer",
       rank: "Commander",
       about: "Una Chin-Riley is the executive officer aboard the USS Enterprise in the 23rd century. She is known for her exceptional leadership skills and her ability to keep the crew focused and motivated during difficult missions.",
     },
+    // {
+    //   key: 8,
+    //   src: imgKirk,   
+    //   name: "Kirk",
+    //   position: "lieutenant",
+    //   rank: "lieutenant",
+    //   about: "Kirk is still a young Lieutenant serving on the Farragut who Pike has his eye on.",
+    // },    
   ];
