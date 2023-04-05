@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="ctn-main">
-      <p>Hello Strange New World</p>
+      {/* <p>Hello Strange New World</p> */}
       {/* <CardHardCoded /> */}
       {/* <Card src="../src/img/Pike.png" name="Pike" rank="Fleet Captain" position="Captin" about="Captin of the star ship Enterprise" /> */}
       {/* <Card src="../src/img/Spock.png" name="Spock" rank="Science Officer" position="Commander" about="Spock is a half-human, half-Vulcan officer serving aboard the USS Enterprise. He is known for his logical and unemotional approach to problem-solving, as well as his close friendship with Captain Kirk." /> */}

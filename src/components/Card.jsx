@@ -1,15 +1,24 @@
 import React from "react";
+import logo from "../img/Icon-STN.png"
 
 export default function Card(props) {
 
+
     return (
-        <div className="card">
-            <img src={props.src} alt={`image: ${props.src}`} />
-            <p>{props.name}</p>
-            <p>{props.rank}</p>
-            <p>{props.position}</p>
-            <p>{props.about}</p>
-            {/* <hr /> */}
-        </div>
+
+            <div className="card">
+                <div className="card-header">
+                    <img src={logo} />
+                    <div>
+                        <p className="name">{props.name}</p>
+                        <p className="rank">{props.rank}</p>
+                    </div>
+                </div>
+                <img className="img-character" src={props.src} alt={`image: ${props.src}`} />
+                <p className="position">{props.position}</p>
+                <p className="about">{props.about}</p>
+                {/* <hr /> */}
+            </div>
+
     )
 }
