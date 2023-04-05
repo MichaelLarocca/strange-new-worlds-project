@@ -13,6 +13,7 @@ main {
 .ctn {
   /* border: 3px solid greenyellow; */
   width: 100%;
+  min-width: 300px;
 }
 
 .navbar {
@@ -37,7 +38,7 @@ main {
 
 .hero img {
   /* border: 1px solid red; */
-  width: 300px;
+  width: 500px;
 }
 
 .card {
@@ -110,4 +111,11 @@ main {
   font-weight: bold;
   margin: 0;
   height: 85px;
+}
+
+@media screen and (max-width: 500px) {
+  .hero img {
+    /* border: 1px solid red; */
+    width: 300px;
+  }
 }
