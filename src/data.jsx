@@ -81,12 +81,13 @@ export default [
 		about:
 			"Una Chin-Riley is the executive officer aboard the USS Enterprise in the 23rd century. She is known for her exceptional leadership skills and her ability to keep the crew focused and motivated during difficult missions.",
 	},
-	// {
-	//   key: 8,
-	//   src: imgKirk,
-	//   name: "Kirk",
-	//   position: "lieutenant",
-	//   rank: "lieutenant",
-	//   about: "Kirk is still a young Lieutenant serving on the Farragut who Pike has his eye on.",
-	// },
+	{
+		key: 8,
+		src: imgKirk,
+		name: "Kirk",
+		position: "lieutenant",
+		rank: "lieutenant",
+		about:
+			"Kirk is still a young Lieutenant serving on the Farragut who Pike has his eye on.",
+	},
 ];
